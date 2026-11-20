@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garcia Pudins Gourmert | Pudim de leite condensado em Betim</title>
+  <meta name="description" content="Pudins caseiros de leite condensado feitos sob encomenda no Jardim Petrópolis, Betim - MG. Tamanhos individual, médio e grande. Peça pelo WhatsApp.">
+  <meta name="theme-color" content="#4a2f20">
+
+  <!-- Fontes do Google: Playfair Display (títulos) e Poppins (textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ CABEÇALHO / MENU ============ -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Garcia Pudins Gourmert - início">
+        <span class="logo__nome">Garcia</span>
+        <span class="logo__sub">Pudins Gourmert</span>
+      </a>
+
+      <!-- Botão que abre o menu no celular -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#como-pedir">Como pedir</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+        <a href="#encomenda" class="btn btn--small">Encomendar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ PÁGINA INICIAL (HERO) ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__texto">
+          <p class="eyebrow">Feito em Betim, com carinho</p>
+          <h1>O pudim de leite condensado que <em>derrete na boca</em></h1>
+          <p class="hero__desc">
+            Pudins caseiros, cremosos e com calda de caramelo no ponto certo,
+            feitos sob encomenda pela Vanessa para o seu café, almoço de família ou aniversário.
+          </p>
+          <div class="hero__botoes">
+            <a href="#encomenda" class="btn">Fazer minha encomenda</a>
+            <a href="#produtos" class="btn btn--outline">Ver tamanhos e preços</a>
+          </div>
+          <ul class="hero__info">
+            <li><strong>A partir de R$ 6</strong><span>pudim individual</span></li>
+            <li><strong>4 a 7 dias</strong><span>de antecedência</span></li>
+            <li><strong>Retirada</strong><span>combinada no WhatsApp</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__imagem">
+          <img src="img/pudim-lateral.jpeg" alt="Pudim de leite condensado com calda de caramelo sobre mesa de madeira" width="1024" height="1280">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APRESENTAÇÃO DA EMPRESA ============ -->
+    <section class="secao" id="sobre">
+      <div class="container sobre">
+        <div class="sobre__imagem">
+          <img src="img/pudim-fatia.jpeg" alt="Pudim servido em prato decorado, sendo cortado com uma colher" loading="lazy" width="852" height="1280">
+        </div>
+        <div class="sobre__texto">
+          <p class="eyebrow">Sobre nós</p>
+          <h2>Um negócio de casa, feito com capricho</h2>
+          <p>
+            A <strong>Garcia Pudins Gourmert</strong> é um pequeno negócio do bairro Jardim Petrópolis, em Betim - MG, comandado pela
+            <strong>Vanessa</strong>. Aqui o foco é um só: fazer o melhor pudim de leite condensado,
+            sempre fresquinho e feito especialmente para você.
+          </p>
+          <p>
+            Como cada pudim é feito sob encomenda, nada fica parado esperando o cliente. A receita é caseira,
+            a textura é cremosa e a calda de caramelo tem aquele brilho que dá vontade de provar só de olhar.
+          </p>
+          <ul class="diferenciais">
+            <li><span aria-hidden="true">✓</span> Feito sob encomenda, sempre fresco</li>
+            <li><span aria-hidden="true">✓</span> Receita caseira de leite condensado</li>
+            <li><span aria-hidden="true">✓</span> Três tamanhos para cada ocasião</li>
+            <li><span aria-hidden="true">✓</span> Atendimento direto com a dona, pelo WhatsApp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUTOS E PREÇOS ============ -->
+    <section class="secao secao--escura" id="produtos">
+      <div class="container">
+        <div class="secao__titulo">
+          <p class="eyebrow">Nosso cardápio</p>
+          <h2>Escolha o tamanho ideal</h2>
+          <p>Todos os pudins são de leite condensado, com calda de caramelo.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icone" aria-hidden="true">
+              <svg viewBox="0 0 100 100"><ellipse cx="50" cy="68" rx="22" ry="8" fill="#6b4630"/><path d="M30 44 h40 l-3 22 a17 6 0 0 1 -34 0z" fill="#e8c88f"/><ellipse cx="50" cy="44" rx="20" ry="7" fill="#c8741c"/><ellipse cx="50" cy="44" rx="5" ry="2" fill="#8a4a14"/></svg>
+            </div>
+            <h3>Individual</h3>
+            <p class="card__desc">Perfeito para uma sobremesa só sua ou para provar pela primeira vez.</p>
+            <p class="card__preco"><span>R$</span> 6</p>
+          </article>
+
+          <article class="card card--destaque reveal">
+            <span class="card__selo">Mais pedido para a família</span>
+            <div class="card__icone card__icone--grande" aria-hidden="true">
+              <svg viewBox="0 0 100 100"><ellipse cx="50" cy="72" rx="34" ry="11" fill="#6b4630"/><path d="M20 42 h60 l-4 28 a26 9 0 0 1 -52 0z" fill="#e8c88f"/><ellipse cx="50" cy="42" rx="30" ry="10" fill="#c8741c"/><ellipse cx="50" cy="42" rx="7" ry="2.5" fill="#8a4a14"/></svg>
+            </div>
+            <h3>Médio</h3>
+            <p class="card__desc">Ideal para o café da tarde ou para dividir em casa.</p>
+            <p class="card__preco"><span>R$</span> 20</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icone card__icone--grande" aria-hidden="true">
+              <svg viewBox="0 0 100 100"><ellipse cx="50" cy="74" rx="44" ry="14" fill="#6b4630"/><path d="M10 40 h80 l-5 32 a35 11 0 0 1 -70 0z" fill="#e8c88f"/><ellipse cx="50" cy="40" rx="40" ry="12" fill="#c8741c"/><ellipse cx="50" cy="40" rx="9" ry="3" fill="#8a4a14"/></svg>
+            </div>
+            <h3>Grande</h3>
+            <p class="card__desc">Para almoços, aniversários e reuniões. O pudim que vira a atração da mesa.</p>
+            <p class="card__preco"><span>R$</span> 40</p>
+          </article>
+        </div>
+
+        <p class="aviso">Valores sujeitos a alteração. Confirme sempre pelo WhatsApp na hora de encomendar.</p>
+      </div>
+    </section>
+
+    <!-- ============ COMO PEDIR / RETIRADA ============ -->
+    <section class="secao" id="como-pedir">
+      <div class="container">
+        <div class="secao__titulo">
+          <p class="eyebrow">Passo a passo</p>
+          <h2>Como encomendar</h2>
+          <p>Simples, rápido e sem complicação.</p>
+        </div>
+
+        <ol class="passos">
+          <li class="passo reveal">
+            <span class="passo__num">1</span>
+            <h3>Chame no WhatsApp</h3>
+            <p>Diga o tamanho, a quantidade e para qual dia você precisa do pudim.</p>
+          </li>
+          <li class="passo reveal">
+            <span class="passo__num">2</span>
+            <h3>Combine o prazo</h3>
+            <p>As encomendas pedem de <strong>4 a 7 dias</strong> de antecedência, dependendo do tamanho do pedido.</p>
+          </li>
+          <li class="passo reveal">
+            <span class="passo__num">3</span>
+            <h3>Confirme o pedido</h3>
+            <p>A Vanessa confirma a data, o valor e a forma de pagamento com você.</p>
+          </li>
+          <li class="passo reveal">
+            <span class="passo__num">4</span>
+            <h3>Retire o seu pudim</h3>
+            <p>A retirada é combinada pelo WhatsApp. No momento não há entrega.</p>
+          </li>
+        </ol>
+
+        <div class="retirada">
+          <h3>Onde retirar?</h3>
+          <p>
+            A retirada é no bairro <strong>Jardim Petrópolis, em Betim - MG</strong>. A Garcia Pudins Gourmert
+            trabalha só com <strong>retirada</strong>. O local exato e o horário são combinados com a Vanessa
+            pelo WhatsApp quando o pedido é confirmado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA DE IMAGENS ============ -->
+    <section class="secao secao--bege" id="galeria">
+      <div class="container">
+        <div class="secao__titulo">
+          <p class="eyebrow">Galeria</p>
+          <h2>Dá água na boca</h2>
+          <p>Clique em uma foto para ver maior.</p>
+        </div>
+
+        <div class="galeria">
+          <button class="galeria__item" data-img="img/pudim-frente.jpeg" data-alt="Pudim de leite condensado visto de frente, sobre mesa de madeira">
+            <img src="img/pudim-frente.jpeg" alt="Pudim de leite condensado visto de frente, sobre mesa de madeira" loading="lazy" width="853" height="1280">
+          </button>
+          <button class="galeria__item" data-img="img/pudim-lateral.jpeg" data-alt="Pudim com calda de caramelo brilhante, em foto de perto">
+            <img src="img/pudim-lateral.jpeg" alt="Pudim com calda de caramelo brilhante, em foto de perto" loading="lazy" width="1024" height="1280">
+          </button>
+          <button class="galeria__item" data-img="img/pudim-calda.jpeg" data-alt="Pudim visto de cima com calda de caramelo escorrendo no prato">
+            <img src="img/pudim-calda.jpeg" alt="Pudim visto de cima com calda de caramelo escorrendo no prato" loading="lazy" width="853" height="1280">
+          </button>
+          <button class="galeria__item" data-img="img/pudim-fatia.jpeg" data-alt="Pudim servido em prato decorado, sendo cortado com uma colher">
+            <img src="img/pudim-fatia.jpeg" alt="Pudim servido em prato decorado, sendo cortado com uma colher" loading="lazy" width="852" height="1280">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FORMULÁRIO DE ENCOMENDA (envia para o WhatsApp) ============ -->
+    <section class="secao" id="encomenda">
+      <div class="container encomenda">
+        <div class="encomenda__texto">
+          <p class="eyebrow">Faça seu pedido</p>
+          <h2>Monte sua encomenda em segundos</h2>
+          <p>
+            Preencha os campos ao lado e o site abre o WhatsApp da Vanessa com a mensagem pronta.
+            É só tocar em enviar!
+          </p>
+          <p class="encomenda__nota">Lembre-se: pedidos de <strong>4 a 7 dias</strong> de antecedência.</p>
+        </div>
+
+        <form class="form" id="formEncomenda" novalidate>
+          <div class="campo">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex.: Maria Silva" required>
+          </div>
+
+          <div class="campo-linha">
+            <div class="campo">
+              <label for="tamanho">Tamanho</label>
+              <select id="tamanho" name="tamanho" required>
+                <option value="">Escolha...</option>
+                <option value="Individual (R$ 6)" data-preco="6">Individual - R$ 6</option>
+                <option value="Médio (R$ 20)" data-preco="20">Médio - R$ 20</option>
+                <option value="Grande (R$ 40)" data-preco="40">Grande - R$ 40</option>
+              </select>
+            </div>
+            <div class="campo campo--curto">
+              <label for="quantidade">Quantidade</label>
+              <input type="number" id="quantidade" name="quantidade" min="1" max="50" value="1" required>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="data">Para qual dia você precisa?</label>
+            <input type="date" id="data" name="data" required>
+            <small id="dataAjuda">Escolha uma data com pelo menos 4 dias de antecedência.</small>
+          </div>
+
+          <div class="campo">
+            <label for="obs">Observações (opcional)</label>
+            <textarea id="obs" name="obs" rows="3" placeholder="Ex.: é para um aniversário"></textarea>
+          </div>
+
+          <p class="form__total" id="total" aria-live="polite"></p>
+          <p class="form__erro" id="erro" role="alert"></p>
+
+          <button type="submit" class="btn btn--whats">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.43 15.1L2 22l5.07-1.33A9.92 9.92 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.4 1.34-1.93 1.4-.5.07-1.13.1-1.82-.12a16.6 16.6 0 0 1-1.65-.61c-2.9-1.25-4.78-4.17-4.92-4.37-.14-.19-1.17-1.56-1.17-2.98 0-1.42.74-2.12 1-2.41.27-.29.58-.36.78-.36h.55c.18 0 .42-.07.65.5.25.58.84 2.03.91 2.18.07.15.12.32.02.51-.1.2-.15.32-.3.5-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.09 1.31 2.39 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.28.1 1.74.82 2.04.97.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg>
+            Enviar pedido pelo WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO E REDES SOCIAIS ============ -->
+    <section class="secao secao--escura" id="contato">
+      <div class="container">
+        <div class="secao__titulo">
+          <p class="eyebrow">Fale com a gente</p>
+          <h2>Contato</h2>
+          <p>Tire dúvidas e faça sua encomenda direto com a Vanessa.</p>
+        </div>
+
+        <div class="contatos">
+          <a class="contato" href="https://wa.me/5531988151994?text=Ol%C3%A1%2C%20Vanessa!%20Vim%20pelo%20site%20e%20quero%20encomendar%20um%20pudim." target="_blank" rel="noopener">
+            <span class="contato__rotulo">WhatsApp</span>
+            <strong>(31) 98815-1994</strong>
+            <span class="contato__acao">Chamar agora →</span>
+          </a>
+
+          <a class="contato" href="https://www.instagram.com/garcia_pudinsgourmet/" target="_blank" rel="noopener">
+            <span class="contato__rotulo">Instagram</span>
+            <strong>@garcia_pudinsgourmet</strong>
+            <span class="contato__acao">Ver perfil →</span>
+          </a>
+
+          <a class="contato" href="https://share.google/jbu9iRcOCE1C0Jy4L" target="_blank" rel="noopener">
+            <span class="contato__rotulo">Localização</span>
+            <strong>Jardim Petrópolis, Betim - MG</strong>
+            <span class="contato__acao">Abrir no Google Maps →</span>
+          </a>
+
+          <div class="contato contato--info">
+            <span class="contato__rotulo">Prazo das encomendas</span>
+            <strong>4 a 7 dias</strong>
+            <span class="contato__acao">Conforme o tamanho do pedido</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong class="footer__nome">Garcia Pudins Gourmert</strong>
+        <p>Pudins de leite condensado feitos sob encomenda no Jardim Petrópolis, Betim - MG.</p>
+      </div>
+      <p class="footer__copy">© <span id="ano"></span> Garcia Pudins Gourmert. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp (aparece em todas as telas) -->
+  <a class="whats-flutuante" href="https://wa.me/5531988151994?text=Ol%C3%A1%2C%20Vanessa!%20Vim%20pelo%20site%20e%20quero%20encomendar%20um%20pudim." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.43 15.1L2 22l5.07-1.33A9.92 9.92 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.4 1.34-1.93 1.4-.5.07-1.13.1-1.82-.12a16.6 16.6 0 0 1-1.65-.61c-2.9-1.25-4.78-4.17-4.92-4.37-.14-.19-1.17-1.56-1.17-2.98 0-1.42.74-2.12 1-2.41.27-.29.58-.36.78-.36h.55c.18 0 .42-.07.65.5.25.58.84 2.03.91 2.18.07.15.12.32.02.51-.1.2-.15.32-.3.5-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.09 1.31 2.39 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.28.1 1.74.82 2.04.97.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg>
+  </a>
+  <a class="insta-flutuante" href="https://www.instagram.com/garcia_pudinsgourmet/" target="_blank" rel="noopener" aria-label="Abrir Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <!-- Janela que mostra a foto ampliada na galeria -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__fechar" id="lightboxFechar" aria-label="Fechar foto">×</button>
+    <img src="" alt="" id="lightboxImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
