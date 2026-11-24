@@ -4,7 +4,7 @@
    ========================================================== */
 
 /* Dados do negócio num só lugar: se mudar o número, é só trocar aqui. */
-const WHATSAPP = '5531988151994';   // 55 (Brasil) + 31 (DDD) + número
+const WHATSAPP = '5531998805270';   // 55 (Brasil) + 31 (DDD) + número
 const DIAS_MINIMOS = 4;             // antecedência mínima das encomendas
 
 /* ---------- 1. MENU DO CELULAR ---------- */
